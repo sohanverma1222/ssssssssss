@@ -1,0 +1,59 @@
+/* Function to show profile Details */
+ function show_details()
+ {
+	var element =document.getElementById("log_in_details");
+ 	element.style.height = "120px";
+	element.style.padding = "10px";
+	element.style.backgroundColor  = "white"; 
+	
+	element.style.borderStyle   = "solid";
+	/* element.classList.add("after_list");  */ 
+	
+	
+ }
+ profile {
+  width: 45px;
+  height: 45px;
+  background-color: white;
+  border-radius: 50px;
+  margin-top: -2px;
+  float: right;
+  margin-right: -180px;
+  overflow: hidden;
+  border: 1px solid black;
+}
+ <div class="profile" onmouseover="show_details();">
+<!--  <p class="profile_icon" style="margin-left: -3px"><i class="bi bi-person-fill"></i></p>  -->
+  <img  class="profile_icon" alt="" src="../images/EN172.png">
+<!-- <img  class="profile_icon" alt="" src="../images/ashwin sir.jpg"> -->
+</div>
+
+
+<!DOCTYPE html>
+<html>
+<title>W3.CSS</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"><body>
+
+<div class="w3-container">
+  <h2>Responsive navbar with responsive dropdown</h2>
+  <p>Resize the browser window to see the result:</p>
+
+  <div class="w3-bar w3-black">
+    <a href="#" class="w3-bar-item w3-button w3-mobile w3-green">Home</a>
+    <a href="#" class="w3-bar-item w3-button w3-mobile">Link 1</a>
+    <a href="#" class="w3-bar-item w3-button w3-mobile">Link 2</a>
+    <div class="w3-dropdown-hover w3-mobile">
+      <button class="w3-button">Dropdown <i class="fa fa-caret-down"></i></button>
+      <div class="w3-dropdown-content w3-bar-block w3-dark-grey">
+        <a href="#" class="w3-bar-item w3-button w3-mobile">Link 1</a>
+        <a href="#" class="w3-bar-item w3-button w3-mobile">Link 2</a>
+        <a href="#" class="w3-bar-item w3-button w3-mobile">Link 3</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
